@@ -16,7 +16,7 @@ class Karyawan:
 class AnalisData(Karyawan):
     def __init__(self, nama, usia, pendapatan): 
     def lembur(self):
-       self.pendapatan_tambahan += int(pendapatan*0.1)    #what the meaning of "int" on it??
+       self.pendapatan_tambahan += int(self.pendapatan*0.1)    #what the meaning of "int" on it??
 
 aksara = AnalisData('Aksara', 25, 8500000)
 aksara.lembur()
